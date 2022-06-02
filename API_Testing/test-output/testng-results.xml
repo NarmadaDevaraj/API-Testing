@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11802" started-at="2022-06-02T13:38:49 IST" finished-at="2022-06-02T13:39:01 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11802" started-at="2022-06-02T13:38:49 IST" finished-at="2022-06-02T13:39:01 IST">
+      <class name="RestAssuredApiTesting.GetApiRequest">
+        <test-method status="PASS" signature="TC1_GetMethodRequests()[pri:0, instance:RestAssuredApiTesting.GetApiRequest@27f723]" name="TC1_GetMethodRequests" duration-ms="1590" started-at="2022-06-02T13:38:56 IST" finished-at="2022-06-02T13:38:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_GetMethodRequests -->
+      </class> <!-- RestAssuredApiTesting.GetApiRequest -->
+      <class name="RestAssuredApiTesting.PutApiRequest">
+        <test-method status="PASS" signature="TC1_PutRequest_ExistingRequest()[pri:0, instance:RestAssuredApiTesting.PutApiRequest@670b40af]" name="TC1_PutRequest_ExistingRequest" duration-ms="966" started-at="2022-06-02T13:38:58 IST" finished-at="2022-06-02T13:38:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_PutRequest_ExistingRequest -->
+        <test-method status="PASS" signature="TC2_PutRequest_ModifiedRequest()[pri:0, instance:RestAssuredApiTesting.PutApiRequest@670b40af]" name="TC2_PutRequest_ModifiedRequest" duration-ms="1049" started-at="2022-06-02T13:38:59 IST" finished-at="2022-06-02T13:39:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_PutRequest_ModifiedRequest -->
+        <test-method status="PASS" signature="TC3_PutRequest_NewRequest()[pri:0, instance:RestAssuredApiTesting.PutApiRequest@670b40af]" name="TC3_PutRequest_NewRequest" duration-ms="995" started-at="2022-06-02T13:39:00 IST" finished-at="2022-06-02T13:39:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3_PutRequest_NewRequest -->
+      </class> <!-- RestAssuredApiTesting.PutApiRequest -->
+      <class name="RestAssuredApiTesting.PostApiRequest">
+        <test-method status="PASS" signature="TC1_PostMethod_ValidCredentials()[pri:0, instance:RestAssuredApiTesting.PostApiRequest@29b5cd00]" name="TC1_PostMethod_ValidCredentials" duration-ms="2704" started-at="2022-06-02T13:38:49 IST" finished-at="2022-06-02T13:38:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_PostMethod_ValidCredentials -->
+        <test-method status="PASS" signature="TC2_PostMethod_EmptyEmail()[pri:0, instance:RestAssuredApiTesting.PostApiRequest@29b5cd00]" name="TC2_PostMethod_EmptyEmail" duration-ms="1649" started-at="2022-06-02T13:38:52 IST" finished-at="2022-06-02T13:38:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_PostMethod_EmptyEmail -->
+        <test-method status="PASS" signature="TC3_PostMethod_EmptyPassword()[pri:0, instance:RestAssuredApiTesting.PostApiRequest@29b5cd00]" name="TC3_PostMethod_EmptyPassword" duration-ms="1117" started-at="2022-06-02T13:38:54 IST" finished-at="2022-06-02T13:38:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3_PostMethod_EmptyPassword -->
+        <test-method status="PASS" signature="TC4_PostMethod_EmptyPayload()[pri:0, instance:RestAssuredApiTesting.PostApiRequest@29b5cd00]" name="TC4_PostMethod_EmptyPayload" duration-ms="1692" started-at="2022-06-02T13:38:55 IST" finished-at="2022-06-02T13:38:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC4_PostMethod_EmptyPayload -->
+      </class> <!-- RestAssuredApiTesting.PostApiRequest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
